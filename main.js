@@ -6,8 +6,13 @@ for (var i = 0; i < 500; i+= 100) {
 
 // #2
 function two (arg) {
-    
+	var count = 1;
+	for (var i = 1; i < arg; i++) {
+		console.log(count);
+		count = count * 2;
+	}
 }
+two(8);
 
 
 // #3
@@ -58,4 +63,3 @@ var count = 0;
 	}
 }
 seven(12);
-
