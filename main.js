@@ -3,10 +3,12 @@ for (var i = 0; i < 500; i+= 100) {
     console.log(i);
 }
 
+
 // #2
 function two (arg) {
     
 }
+
 
 // #3
 function three (arg) {
@@ -21,6 +23,17 @@ function three (arg) {
 three(3);
 
 
+// #4
+for (var i = 0; i < 11; i+= 2) {
+    console.log(i);
+}
+
+
+// #5
+for (var i = 3; i < 16; i+=3) {
+    console.log(i);
+}
+
 
 // #6
 function six (arg) {
@@ -31,6 +44,7 @@ function six (arg) {
     }
 }
 six(5);
+
 
 // #7
 function seven (arg) {
